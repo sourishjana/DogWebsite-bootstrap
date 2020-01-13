@@ -1,0 +1,132 @@
+/*navbar part*/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 20px;
+}
+
+
+/*title part*/
+#title{
+    background-color: rgba(217, 222, 228, 0.993);
+    padding-bottom: 3%;
+}
+#title.container-fluid {
+    padding: 3% 15% 7%;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+.title-heading{
+    font-size: 5em;
+}
+.title-download-button{
+    margin:5% 3% 15% 0;
+}
+
+
+/*feature part*/
+#features{
+    padding: 7% 15% 3%;
+    font-size: 18px;
+    background-color: white;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-p{
+    color: lightslategray;
+}
+.fas{
+    color: lightslategray;
+    margin-bottom: 10px;
+}
+.fas:hover{
+    color: black;
+}
+
+/*testimonial part*/
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#testimonials{
+    padding-top: 5%;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 2%;
+}
+#press{
+    background-color:  rgb(199, 209, 219);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.presslogo{
+    width: 15%;
+    margin: 20px 20px 15px;
+}
+.carousel-item{
+    padding: 5% 15%;   
+}
+
+/*pricing part*/
+#pricing{
+    padding: 4% 10%;
+    text-align: center;
+}
+.price-tags{
+    margin-top: 5%;
+}
+
+/* call to action part*/
+#cta{
+    background-color: rgb(199, 209, 219);
+    text-align: center;
+    padding: 7% 15%;
+}
+h3{
+    font-size: 3em;
+    font-weight: 400;
+    padding-bottom: 4%;
+}
+.download-button-below{
+    margin: 3%;
+}
+
+/*footer part*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icons{
+    color: grey;
+    margin: 3%;
+}
+.social-icons:hover{
+    color: black;
+}
+.copyright{
+    margin-top: 3%;
+}
+
+
+/*media query break points*/
+@media (max-width:995px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
